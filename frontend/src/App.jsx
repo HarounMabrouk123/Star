@@ -11,6 +11,7 @@ import BrainMate from "./pages/BrainMate";
 import Contact from "./pages/Contact"
 import Student from "./pages/Student";
 import Tools from "./pages/Tools";
+import RoboticsPage from "./pages/robotics";
 
 
 
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="/BrainMate" element={<BrainMate />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/student" element={<Student />} />
+          <Route path="/robotics" element={<RoboticsPage />} />
           <Route path="/outils" element={<Tools />} />
 
         </Routes>
